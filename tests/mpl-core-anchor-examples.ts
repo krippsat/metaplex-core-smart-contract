@@ -3,7 +3,7 @@ import { Program } from "@coral-xyz/anchor";
 import { MplCoreAnchorWrapper } from "../target/types/mpl_core_anchor_wrapper";
 import { DataState, MPL_CORE_PROGRAM_ID } from "@metaplex-foundation/mpl-core";
 
-describe("mpl-core-anchor-examples", () => {
+describe("metaplex-core-smart-contract", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
